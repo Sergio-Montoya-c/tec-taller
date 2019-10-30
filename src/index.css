@@ -6,8 +6,42 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+h1, h2 {
+  text-align: center;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+ul {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fortnite-item {
+  width: calc(50% - 30px);
+  margin-right: 15px;
+  margin-left: 15px;
+  border: 1px solid #cdcdcd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  list-style: none;
+  margin-bottom: 15px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.item-image {
+  border-radius: 50%;
+  overflow: hidden;
+  background: #000;
+  margin-right: 15px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.description img {
+  margin-left: 5px;
 }
